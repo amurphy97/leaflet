@@ -87,3 +87,9 @@ var grandcentral= L.marker( [40.7533410180116, -73.97737281239407] ).addTo(map);
 
 grandcentral.bindPopup("Grand Central Terminal");
 
+var dumboPolygon = L.polygon([
+    [40.704481, -73.993688],
+    [40.705522, -73.984547],
+    [40.702578, -73.991671],
+    [40.701667, -73.985256]
+]).addTo(map);
