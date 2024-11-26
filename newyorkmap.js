@@ -17,6 +17,16 @@ Esri_WorldImagery.addTo(map);
 var chelseahotel= L.marker( [40.747131378087076, -73.99132905922393] ).addTo(map);
 //adds marker at designated lat/long
 
+var hotelIcon = L.icon({
+    iconUrl: '/hotelicon.png',
+
+    iconSize:     [38, 95], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+L.marker([40.747131378087076, -73.99132905922393], {icon: hotelIcon}).addTo(map);
+
 chelseahotel.bindPopup("<b>Hotel</b>");
 
 var bryantpark= L.marker( [40.75366461843432, -73.98361718991177] ).addTo(map);
