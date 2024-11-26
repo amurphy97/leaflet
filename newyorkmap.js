@@ -105,3 +105,7 @@ var dumboPolygon = L.polygon([
 ]).addTo(map);
 
 dumboPolygon.bindPopup("Dumbo neighbourhood");
+
+var outlet= L.marker( [41.31712208041861, -74.12562327456924] ).addTo(map);
+
+outlet.bindPopup("Woodbury Outlet");
