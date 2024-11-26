@@ -18,7 +18,7 @@ var chelseahotel= L.marker( [40.747131378087076, -73.99132905922393] ).addTo(map
 //adds marker at designated lat/long
 
 var hotelIcon = L.icon({
-    iconUrl: '/hotelicon.png',
+    iconUrl: '/main/hotelicon.png',
 
     iconSize:     [38, 95], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
