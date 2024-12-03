@@ -99,3 +99,12 @@ dumboPolygon.bindPopup("Dumbo neighbourhood");
 var outlet= L.marker( [41.31712208041861, -74.12562327456924] ).addTo(map);
 
 outlet.bindPopup("Woodbury Outlet");
+
+var ferry= L.marker( [40.70148974033059, -74.0135236361611] ).addTo(map);
+
+ferry.bindPopup("Staten Island Ferry terminal");
+
+var statue= L.marker( [40.69204010529589, -74.04408629639947] ).addTo(map);
+
+statue.bindPopup("Statue of Liberty");
+
