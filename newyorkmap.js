@@ -104,6 +104,10 @@ var ferry= L.marker( [40.70148974033059, -74.0135236361611] ).addTo(map);
 
 ferry.bindPopup("Staten Island Ferry terminal");
 
+var photobooth= L.marker ( [40.719520430494235, -73.98978361534407] ).addTo(map);
+
+photobooth.bindPopup("Photobooth"); 
+
 var statue= L.marker( [40.69204010529589, -74.04408629639947] ).addTo(map);
 
 statue.bindPopup("Statue of Liberty");
